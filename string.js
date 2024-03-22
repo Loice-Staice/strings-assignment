@@ -48,5 +48,14 @@ function titleCase(str){
 }
 console.log(titleCase("A wonderful world"))
 
+let h = "Ethiopia";
+let g = h.indexOf("p")``
+console.log({g})
 
+let y ="nairobi";
+y = y.indexOf("i");
+console.log({y})
+
+const String1 ="he pupils are reading in the library";
+console.log({index:String1.search(/"are"/)});
 
