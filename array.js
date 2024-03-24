@@ -25,4 +25,18 @@ function duplicates(b) {
 }
 console.log(duplicates(b))
 
+//Write a JS script to search for the following word in the array."food"If the word is present, return it else return "the search word was not found"let arr5 = ["the", "way", "x", 4];
+let arr5 = ["the", "way", "x", 4];
+let s = arr5.includes("food");
+if(s==true){
+    console.log("the search word was not found")
+}
+else{
+    console.log("the search word was not found")
+}
+
+
+
+
+
 
