@@ -6,4 +6,23 @@ console.log(`last item`,arr1[arr1.length -1])
 let arr2 = [true, "green","where", 12, 56];
 console.log(`last item`,arr2[arr2.concat.length -1])
 
-// 
+// no.3 Write a JS script to sort the following array itemsvar arr3 = [ -5, 9, 5, 3, 2, -3, 6, 8, 4, 1 ];
+var arr3 = [ -5, 9, 5, 3, 2, -3, 6, 8, 4, 1 ];
+var answer = arr3.sort();
+console.log(answer)
+
+// no.4 Write a program to remove duplicates from the following array.Console the array without duplicates, and console another array that only contains the duplicates
+let arr = ["boy", "man", "girl", "school", "girl", "woman"];
+function removeDuplicates(arr)  {
+    return[...new Set(arr)]
+}
+console.log(removeDuplicates(arr))
+
+//
+let b =["boy", "man", "girl", "school", "girl", "woman"];
+function duplicates(b) {
+    return[...new Set(b)]
+}
+console.log(duplicates(b))
+
+
